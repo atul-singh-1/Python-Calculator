@@ -16,7 +16,7 @@ A simple command-line calculator built using Python.
 ## How to Run
 
 ```bash
-python calc.py
+python calculator.py
 ```
 
 ## Author
