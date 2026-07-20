@@ -6,31 +6,36 @@ while True:
     print("4.Division")
     print("5.Modulus")
     print("6.Power")
-    print("7. Exit")
+    print("7.Percentage")
+    print("8. Exit")
+
     try:
         choice=int(input("Enter your choice :"))
     except ValueError:
         print(" Bro! Enter a number! Alphabet and symbol won't work here!")
         continue
-    if choice==7:
+
+    if choice==8:
         print("calculator closed")
         break
-    if choice < 1 or choice > 7:
-        print("Invalid choice! Please enter a number between 1 and 6.")
-       
+
+    if choice < 1 or choice > 8:
+        print("Invalid choice! Please enter a number between 1 and 8.")
         continue
+
     try:
         a=float(input("Enter number A :"))
         b=float(input("Enter number B :"))
     except ValueError:
          print("Bro! Enter a number! Alphabet and symbol won't work here!")
          continue
+
     if choice==1:
         print("Your answer is =",a+b)
-    
+
     elif choice==2:
         print("Your answer is =",a-b)
-        
+
     elif choice==3:
         print("Your answer is =",a*b)
 
@@ -38,16 +43,19 @@ while True:
         if b!=0:
             print("Your answer is =",a/b)
         else:
-            print("Division by zero is not possible  ")
+            print("Division by zero is not possible")
 
     elif choice==5:
         if b!=0:
             print("Your answer is =",a%b)
         else:
-            print("Modulus of zero is not possible")   
-    
+            print("Modulus of zero is not possible")
+
     elif choice==6:
         print("Your answer is =",a**b)
-    
+
+    elif choice==7:
+        print("Your answer is =", (a*b)/100)
+
     else:
         print("invalid choice !")
