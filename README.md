@@ -27,6 +27,8 @@ Thank you for visiting my repository! ❤️
 - ✖️ Multiplication
 - ➗ Division
 - 🟰 Modulus
+- 🔢 Power
+- 📊 Percentage
 - ✅ Input Validation
 - ✅ Error Handling
 - ✅ Division by Zero Handling
