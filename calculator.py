@@ -7,7 +7,8 @@ while True:
     print("5.Modulus")
     print("6.Power")
     print("7.Percentage")
-    print("8. Exit")
+    print("8.Average")
+    print("9. Exit")
 
     try:
         choice=int(input("Enter your choice :"))
@@ -15,20 +16,20 @@ while True:
         print(" Bro! Enter a number! Alphabet and symbol won't work here!")
         continue
 
-    if choice==8:
+    if choice==9:
         print("calculator closed")
         break
 
-    if choice < 1 or choice > 8:
-        print("Invalid choice! Please enter a number between 1 and 8.")
+    if choice < 1 or choice > 9:
+        print("Invalid choice! Please enter a number between 1 and 9.")
         continue
 
     try:
         a=float(input("Enter number A :"))
         b=float(input("Enter number B :"))
     except ValueError:
-         print("Bro! Enter a number! Alphabet and symbol won't work here!")
-         continue
+        print("Bro! Enter a number! Alphabet and symbol won't work here!")
+        continue
 
     if choice==1:
         print("Your answer is =",a+b)
@@ -56,6 +57,9 @@ while True:
 
     elif choice==7:
         print("Your answer is =", (a*b)/100)
+
+    elif choice==8:
+        print("Your answer is =", (a+b)/2)
 
     else:
         print("invalid choice !")
