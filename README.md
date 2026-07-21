@@ -1,3 +1,4 @@
+````md
 # 🧮 Python Calculator
 
 Hi! 👋 Welcome to my first GitHub project.
@@ -29,6 +30,7 @@ Thank you for visiting my repository! ❤️
 - 🟰 Modulus
 - 🔢 Power
 - 📊 Percentage
+- 📈 Average
 - ✅ Input Validation
 - ✅ Error Handling
 - ✅ Division by Zero Handling
@@ -59,3 +61,4 @@ py calculator.py
 ---
 
 ⭐ **If you enjoyed this project or found it helpful, please consider giving it a Star. Your support motivates me to keep learning and building more projects.**
+````
