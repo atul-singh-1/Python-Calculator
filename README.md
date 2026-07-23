@@ -1,23 +1,28 @@
-````md
 # 🧮 Python Calculator
 
-Hi! 👋 Welcome to my first GitHub project.
+A simple and beginner-friendly **Command Line Interface (CLI)** calculator built with **Python**.
 
-This is my **first Python project** and also my **first public GitHub repository**.
+This is my **first Python project** and also my **first public GitHub repository**. It represents the beginning of my programming journey as I learn **Python**, **Git**, and **GitHub**.
 
-I'm currently learning **Python**, **Git**, and **GitHub**. This calculator may be simple, but it represents the beginning of my programming journey. Every expert was once a beginner, and this is where mine begins. 🚀
+Every expert was once a beginner, and this is where mine begins. 🚀
 
-I built this project to practice Python fundamentals such as:
+---
+
+## 📖 About
+
+I built this calculator to strengthen my understanding of Python fundamentals by creating a real-world command-line application.
+
+During this project, I practiced:
+
 - Variables
 - Loops
 - Conditional Statements
 - User Input
-- Error Handling
-- Basic Arithmetic Operations
+- Exception Handling
+- Arithmetic Operators
+- Menu-Driven Programming
 
-If you have any suggestions or feedback, I'd really appreciate them. If you like this project, please consider giving it a ⭐ to support my learning journey.
-
-Thank you for visiting my repository! ❤️
+This project may be simple, but it has helped me build a strong foundation in Python programming.
 
 ---
 
@@ -29,26 +34,53 @@ Thank you for visiting my repository! ❤️
 - ➗ Division
 - 🟰 Modulus
 - 🔢 Power
-- 📊 Percentage
-- 📈 Average
+- 📊 Percentage Calculator
+- 📈 Average Calculator
 - ✅ Input Validation
-- ✅ Error Handling
-- ✅ Division by Zero Handling
-- ✅ Menu-Driven Interface
+- ❌ Error Handling
+- 🚫 Division by Zero Handling
+- 💻 Menu-Driven CLI Interface
 
 ---
 
-## 🛠️ Technologies Used
+## 📚 Concepts Practiced
 
-- Python 3
+- Variables
+- User Input
+- While Loops
+- Conditional Statements (`if`, `elif`, `else`)
+- Exception Handling (`try-except`)
+- Arithmetic Operations
+
+---
+
+## 📂 Project Structure
+
+```text
+Python-Calculator/
+│── calculator.py
+└── README.md
+```
 
 ---
 
 ## ▶️ How to Run
 
+Clone the repository:
+
 ```bash
 git clone https://github.com/atul-singh-1/Python-Calculator.git
+```
+
+Go to the project folder:
+
+```bash
 cd Python-Calculator
+```
+
+Run the program:
+
+```bash
 python calculator.py
 ```
 
@@ -60,5 +92,51 @@ py calculator.py
 
 ---
 
-⭐ **If you enjoyed this project or found it helpful, please consider giving it a Star. Your support motivates me to keep learning and building more projects.**
-````
+## 📸 Preview
+
+```text
+====== Calculator ======
+
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+6. Power
+7. Percentage
+8. Average
+9. Exit
+```
+
+---
+
+## 🚀 Future Improvements
+
+- Floor Division
+- Square Root
+- Scientific Calculator Features
+- Calculation History
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
+
+---
+
+## 🤝 Feedback
+
+I'm currently learning Python and always looking to improve.
+
+If you have any suggestions, feedback, or ideas, I'd really appreciate them.
+
+---
+
+## ⭐ Support
+
+If you found this project helpful or enjoyed exploring it, please consider giving it a **Star ⭐**.
+
+Your support motivates me to keep learning, building, and sharing more Python projects.
+
+Thank you for visiting my repository! ❤️
