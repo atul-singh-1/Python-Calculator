@@ -8,7 +8,8 @@ while True:
     print("6.Power")
     print("7.Percentage")
     print("8.Average")
-    print("9. Exit")
+    print("9.Floor Division")
+    print("10. Exit")
 
     try:
         choice=int(input("Enter your choice :"))
@@ -16,12 +17,12 @@ while True:
         print(" Bro! Enter a number! Alphabet and symbol won't work here!")
         continue
 
-    if choice==9:
+    if choice==10:
         print("calculator closed")
         break
 
-    if choice < 1 or choice > 9:
-        print("Invalid choice! Please enter a number between 1 and 9.")
+    if choice < 1 or choice > 10:
+        print("Invalid choice! Please enter a number between 1 and 10.")
         continue
 
     try:
@@ -60,6 +61,12 @@ while True:
 
     elif choice==8:
         print("Your answer is =", (a+b)/2)
+
+    elif choice==9:
+        if b!=0:
+            print("Your answer is =", a//b)
+        else:
+            print("Division by zero is not possible")
 
     else:
         print("invalid choice !")
