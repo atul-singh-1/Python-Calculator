@@ -34,6 +34,7 @@ This project may be simple, but it has helped me build a strong foundation in Py
 - ➗ Division
 - 🟰 Modulus
 - 🔢 Power
+- ➗ Floor Division
 - 📊 Percentage Calculator
 - 📈 Average Calculator
 - ✅ Input Validation
